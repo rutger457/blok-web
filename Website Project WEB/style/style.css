@@ -1,0 +1,261 @@
+header {
+    position: relative;
+}
+
+body {
+    margin: 0
+}
+
+ul.topmenu {
+    padding: 10px 6.5vw 10px 6.5vw;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+}
+
+li.topmenu {
+    list-style: none;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+ul.verhaalzoekmenu {
+    margin-top: 30px;
+    padding: 5.750px;
+    list-style: none;
+}
+
+
+li.verhaalzoeken {
+    border-style: none;
+    padding: 15px 2vw 15px 5vw;
+    margin: auto;
+    background: #923089;
+    color: white;
+    font-size: 18px;
+    font-family: museo-sans, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 16pt;
+    transition: .3s ease all;
+    max-width: 400px;
+
+
+}
+
+li.verrasme {
+    margin: 15px auto;
+    padding: 10px 0 10px 0;
+    max-width: 120px;
+    border-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #35434b;
+    color: white;
+    border-radius: 8px;
+    font-family: museo-sans, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+    transition: .3s ease all;
+
+
+}
+
+div.verhaalbox {
+    background: #ffdf5d;
+    padding: 0 40px 0 10px;
+    margin: 5px 20px 5px 10px;
+    font-size: 10pt;
+    font-family: museo-sans, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    transition: .3s ease all;
+    border: 5px solid #ffdf5d;
+
+}
+
+
+h2 {
+    font-family: museo-sans, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-left: 8px;
+
+}
+
+h3 {
+    font-family: museo-sans, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14pt;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: black;
+}
+
+p {
+    font-family: museo-sans, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 12pt;
+    margin-right: 10vw;
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+li.verhaalzoeken:hover {
+    background: #6D105C;
+}
+
+li.verrasme:hover {
+    background: black;
+}
+
+div.verhaalbox:hover {
+    border: solid #923089 5px;
+    margin-right: 10px;
+    margin: 5px 20px 5px 10px;
+}
+
+img.vglas {
+    margin-right: 1vw;
+    margin-left: 0px
+}
+
+hr {
+    position: relative;
+    margin-top: -20px;
+    color: #a6c4c4;
+    width: 90vw;
+}
+
+.titelster .ster {
+    height: 20px;
+    align-items: center;
+    display: flex;
+}
+
+.titelster {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: -30px;
+}
+
+.onderkant .hartje {
+    height: 20px;
+    align-items: center;
+    display: flex;
+    margin-bottom: 15px;
+    height: 50px;
+}
+
+.onderkant {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-right: -30px;
+}
+
+footer {
+    background-color: #f4eee8;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: 50px;
+}
+
+ul.footer {
+    text-align: center;
+    list-style: none;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 40px;
+    margin-top: 0px;
+
+}
+
+li.footer {
+    display: inline;
+    font-size: 14px;
+    font-family: museo-sans, sans-serif;
+    font-weight: 100;
+
+}
+
+.footerlogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 55%;
+    max-width: 350px;
+}
+
+footer .footertop {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p.voettekst1 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 1.3em;
+    font-family: museo-sans, sans-serif;
+    font-weight: 700;
+}
+
+p.voettekst2 {
+    text-align: center;
+    color: #99258d;
+    margin: auto;
+}
+
+p.voettekst3 {
+    text-align: center;
+    margin: auto;
+}
+
+div.test {
+    width: 35px;
+    height: 35px;
+    background: #e4ded7;
+    border-radius: 50%;
+}
+
+ul.beta {
+    padding: 0px;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    list-style: none;
+}
+
+li.beta {
+    margin: 10px;
+
+}
+
+hr.footertop {
+    width: 90vw;
+    color: #a6c4c4;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    border: 0;
+    border-top: 1px solid #cac8c5;
+
+}
